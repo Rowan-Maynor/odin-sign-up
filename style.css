@@ -1,6 +1,11 @@
+:root {
+    --input-container-width: calc(70vw - 26vw);
+}
+
 * {
     margin: 0;
 }
+
 body {
     background-color: black;
 }
@@ -10,6 +15,7 @@ body {
     height: 100vh;
     background-color: white;
     margin: auto;
+    display: flex;
 }
 
 #logo-pane {
@@ -18,4 +24,28 @@ body {
     background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: 33.5vw 100vh;
     background-position: center;
+}
+
+#input-pane {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: var(--input-container-width);
+    height: 100vh;
+}
+
+#section-1 {
+    background-color: grey;
+}
+
+#section-2 {
+    background-color: yellow;
+}
+
+#section-3 {
+    background-color: grey;
+}
+
+.input-section {
+    height: 33vh;
 }
