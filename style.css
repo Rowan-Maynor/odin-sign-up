@@ -1,10 +1,18 @@
 :root {
     --input-container-width: calc(70vw - 26vw);
     --input-background: #f8f8f4;
+    --logo-pane-width: 26vw;
+    --logo-box-height: 15vh;
+}
+
+@font-face {
+    font-family: odin-font;
+    src: url(./fonts/Norse-Bold.otf);
 }
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,7 +28,7 @@ body {
 }
 
 #logo-pane {
-    width: 26vw;
+    width: var(--logo-pane-width);
     height: 100vh;
     background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: 33vw 100vh;
@@ -41,3 +49,26 @@ body {
     background-color: white;
 }
 
+#logo-box {
+    width: var(--logo-pane-width);
+    height: var(--logo-box-height);
+    background-color: #00000060;
+    margin-top: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-img {
+    height: 12vh;
+    width: auto;
+}
+
+#odin-text {
+    color: white;
+    font-size: 9vh;
+    display: inline;
+    font-family: odin-font;
+    height: var(--logo-box-height);
+    padding-top: 3vh;
+}
