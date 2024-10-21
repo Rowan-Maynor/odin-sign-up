@@ -52,7 +52,7 @@ body {
 #logo-box {
     width: var(--logo-pane-width);
     height: var(--logo-box-height);
-    background-color: #00000060;
+    background-color: #00000070;
     margin-top: 22vh;
     display: flex;
     justify-content: center;
