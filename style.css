@@ -3,6 +3,7 @@
     --input-background: #f8f8f4;
     --logo-pane-width: 26vw;
     --logo-box-height: 15vh;
+    --credit-font-color: rgb(202, 202, 202);
 }
 
 @font-face {
@@ -19,6 +20,10 @@ body {
     background-color: rgb(15, 15, 15);
 }
 
+a {
+    color: var(--credit-font-color);
+}
+
 .main {
     width: 69.8vw;
     height: 100vh;
@@ -33,6 +38,7 @@ body {
     background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: 33vw 100vh;
     background-position: center;
+    position: relative;
 }
 
 #input-pane {
@@ -71,4 +77,17 @@ body {
     font-family: odin-font;
     height: var(--logo-box-height);
     padding-top: 3vh;
+}
+
+#img-credit {
+    position: absolute;
+    bottom: 1vh;
+    left: 0;
+    right: 0;
+}
+
+#credit {
+    color: var(--credit-font-color);
+    text-align: center;
+    font-size: .9em;
 }
