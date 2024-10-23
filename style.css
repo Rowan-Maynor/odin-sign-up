@@ -2,7 +2,7 @@
     --input-container-width: calc(70vw - 26vw);
     --input-background: #f8f8f4;
     --logo-pane-width: 26vw;
-    --logo-box-height: 15vh;
+    --logo-box-height: 150px;
     --credit-font-color: rgb(202, 202, 202);
 }
 
@@ -36,7 +36,7 @@ a {
     width: var(--logo-pane-width);
     height: 100vh;
     background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: 33vw 100vh;
+    background-size: 700px 1080px;
     background-position: center;
     position: relative;
 }
@@ -66,7 +66,8 @@ a {
 }
 
 #logo-img {
-    height: 12vh;
+    --_img-height: 130px;
+    height: var(--_img-height);
     width: auto;
 }
 
