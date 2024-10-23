@@ -72,7 +72,7 @@ a {
 
 #odin-text {
     color: white;
-    font-size: 9vh;
+    font-size: 6em;
     display: inline;
     font-family: odin-font;
     height: var(--logo-box-height);
