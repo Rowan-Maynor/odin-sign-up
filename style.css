@@ -1,8 +1,6 @@
 :root {
     --input-container-width: calc(70vw - 26vw);
     --input-background: #f8f8f4;
-    --logo-pane-width: 26vw;
-    --logo-box-height: 150px;
     --credit-font-color: rgb(202, 202, 202);
 }
 
@@ -34,7 +32,7 @@ a {
 }
 
 #logo-pane {
-    width: var(--logo-pane-width);
+    width: 26vw;
     height: 100vh;
     background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: 700px 1080px;
@@ -57,7 +55,7 @@ a {
 
 #logo-box {
     width: var(--logo-pane-width);
-    height: var(--logo-box-height);
+    height: 140px;
     background-color: #00000070;
     margin-top: 22vh;
     display: flex;
@@ -66,7 +64,7 @@ a {
 }
 
 #logo-img {
-    --_img-height: 130px;
+    --_img-height: 120px;
     height: var(--_img-height);
     width: auto;
 }
@@ -77,7 +75,6 @@ a {
     display: inline;
     font-family: odin-font;
     height: var(--logo-box-height);
-    padding-top: 30px;
 }
 
 #img-credit {
@@ -93,8 +90,18 @@ a {
     font-size: .9em;
 }
 
-#input-pane-text-top {
-    --_top-spacing: 20vh;
-    font-size: 1.5em;
-    margin-top: var(--_top-spacing);
+#input-pane-text-top-1, #input-pane-text-top-2 {
+    font-size: 1.4em;
+    padding-left: 2.5em;
+    padding-right: 6em;
+    font-weight: 600;
+    line-height: 110%;
+}
+#input-pane-text-top-1 {
+    margin-top: 16vh;
+}
+
+#input-pane-text-top-2 {
+    margin-top: 3vh;
+    margin-bottom: 6vh;
 }
