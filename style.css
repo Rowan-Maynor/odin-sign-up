@@ -46,7 +46,7 @@ a {
     background-color: var(--input-background);
 }
 
-#input-form-container {
+#input-pane-form-container {
     position: relative;
     height: 30vh;
     box-shadow: 0px 20px 15px -15px lightgrey;
