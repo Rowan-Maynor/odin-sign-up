@@ -2,6 +2,7 @@
     --input-container-width: calc(70vw - 26vw);
     --input-background: #f8f8f4;
     --credit-font-color: rgb(202, 202, 202);
+    --input-pane-left-padding: 55px;
 }
 
 @font-face {
@@ -93,7 +94,7 @@ a {
 
 #input-pane-text-top-1, #input-pane-text-top-2 {
     font-size: 1.4em;
-    padding-left: 2.5em;
+    padding-left: var(--input-pane-left-padding);
     padding-right: 6em;
     font-weight: 600;
     line-height: 110%;
@@ -122,7 +123,7 @@ a {
 
 #input-pane-text-bottom {
     font-size: 1.15em;
-    margin-left: 2.5em;
+    margin-left: var(--input-pane-left-padding);
     font-weight: 400;
 }
 
@@ -130,4 +131,23 @@ a {
     color: #596D48;
     text-decoration: none;
     font-weight: 400;
+}
+
+#form-container {
+    width: 40vw;
+    margin-left: var(--input-pane-left-padding);
+}
+
+#form-text-top {
+    margin-left: var(--input-pane-left-padding);
+    padding-top: 16px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#sign-up-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vw;
 }
