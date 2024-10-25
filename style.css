@@ -162,6 +162,8 @@ input {
     height: 30px;
     border: solid 1px rgb(219, 219, 219);
     border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 400;
 }
 
 input:focus {
@@ -172,5 +174,6 @@ input:focus {
 
 label {
     font-size: .8em;
+    font-weight: 500;
     margin-bottom: 3px;
 }
