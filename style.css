@@ -159,4 +159,18 @@ input, label {
 
 input {
     width: 12vw;
+    height: 30px;
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: solid 1px rgb(0, 108, 197);
+    box-shadow: 2px 2px 5px 0 rgb(177, 177, 177);
+}
+
+label {
+    font-size: .8em;
+    margin-bottom: 3px;
 }
