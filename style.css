@@ -172,6 +172,10 @@ input:focus {
     box-shadow: 2px 2px 5px 0 rgb(177, 177, 177);
 }
 
+input:invalid {
+    border:solid 1px rgb(255, 92, 92);
+}
+
 label {
     font-size: .8em;
     font-weight: 500;
