@@ -1,7 +1,4 @@
 :root {
-    --input-container-width: calc(70vw - 26vw);
-    --input-background: #f8f8f4;
-    --credit-font-color: rgb(202, 202, 202);
     --input-pane-left-padding: 55px;
 }
 
@@ -21,7 +18,7 @@ body {
 }
 
 a {
-    color: var(--credit-font-color);
+    color: white;
 }
 
 .main {
@@ -42,9 +39,9 @@ a {
 }
 
 #input-pane {
-    width: var(--input-container-width);
+    width: calc(70vw - 26vw);
     height: 100vh;
-    background-color: var(--input-background);
+    background-color: #f8f8f4;
 }
 
 #input-pane-form-container {
@@ -56,7 +53,6 @@ a {
 }
 
 #logo-box {
-    width: var(--logo-pane-width);
     height: 140px;
     background-color: #00000070;
     margin-top: 22vh;
@@ -66,8 +62,7 @@ a {
 }
 
 #logo-img {
-    --_img-height: 120px;
-    height: var(--_img-height);
+    height: 120px;
     width: auto;
 }
 
@@ -76,7 +71,6 @@ a {
     font-size: 6em;
     display: inline;
     font-family: odin-font;
-    height: var(--logo-box-height);
 }
 
 #img-credit {
@@ -87,7 +81,7 @@ a {
 }
 
 #credit {
-    color: var(--credit-font-color);
+    color: white;
     text-align: center;
     font-size: .9em;
 }
